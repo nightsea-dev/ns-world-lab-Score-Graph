@@ -1,6 +1,6 @@
 # Types – Score Graph Contracts (and Shared Utilities)
 
-## Overview (`packages/types`)
+## Overview
 
 This package defines the shared TypeScript contracts used across the Score Graph system.
 
