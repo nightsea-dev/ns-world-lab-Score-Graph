@@ -1,0 +1,46 @@
+/* 
+.dots-anim::after {
+    content: "";
+    animation: dots 1.2s steps(3, end) infinite;
+}
+
+@keyframes dots {
+    0% {
+        content: "";
+    }
+
+    33% {
+        content: ".";
+    }
+
+    66% {
+        content: "..";
+    }
+
+    100% {
+        content: "...";
+    }
+}
+ */
+.dots-anim {
+    --dots-count: 3;
+    --dots-duration: 1s;
+}
+
+.dots-anim::after {
+    content: "...";
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    animation: dots var(--dots-duration) infinite steps(var(--dots-count));
+}
+
+@keyframes dots {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: calc(var(--dots-count) * 1ch);
+    }
+}

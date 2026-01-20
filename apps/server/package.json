@@ -1,0 +1,36 @@
+{
+    "name": "@ns-sg/server",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "---------- tsx": "------------------------------",
+        "dev": "tsx watch src/index.ts",
+        "tsx": "npm run dev",
+        "---------- tsc": "------------------------------",
+        "tsc:clean": "tsc -b --clean",
+        "tsc": "npm run tsc:clean && tsc -b tsconfig.json",
+        "tsc:w": "npm run tsc:clean && tsc -b tsconfig.json -w",
+        "---------- server": "------------------------------",
+        "start": "node dist/index.js",
+        "b:s": "npm run tsc && npm run start"
+    },
+    "dependencies": {
+        "@ns-sg/types": "file:../../packages/types",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "ee-first": "^1.1.1",
+        "es-errors": "^1.3.0",
+        "express": "^4.19.2",
+        "pg": "^8.12.0",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.17",
+        "@types/express": "^4.17.21",
+        "@types/node": "^22.19.5",
+        "@types/pg": "^8.16.0",
+        "get-tsconfig": "^4.13.0",
+        "tsx": "^4.19.2",
+        "typescript": "^5.7.2"
+    }
+}

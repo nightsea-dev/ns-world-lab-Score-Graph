@@ -1,0 +1,108 @@
+# ========================================
+# Node / JS
+# ========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+coverage/
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# ========================================
+# Turbo
+# ========================================
+.turbo/
+turbo/.turbo/
+
+# ========================================
+# Environment
+# ========================================
+.env
+.env.*
+.env-*
+!.env.example
+
+# ========================================
+# OS / Editor
+# ========================================
+.DS_Store
+Thumbs.db
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+.history/
+
+# ========================================
+# Archives (INTENTIONAL)
+# Ignore zip files ONLY in archive folders
+# ========================================
+zip/**/*.zip
+zips/**/*.zip
+ZIP/**/*.zip
+ZIPS/**/*.zip
+
+# ========================================
+# Temporary / local scratch
+# ========================================
+tmp/
+temp/
+.cache/
+.parcel-cache/
+.swc/
+
+# ========================================
+# Logs
+# ========================================
+logs/
+*.log
+.eslintcache
+.stylelintcache
+
+# ========================================
+# Database local artifacts
+# ========================================
+*.sqlite
+*.sqlite3
+
+# ========================================
+# Allow documentation & diagrams
+# ========================================
+!docs/**
+!_docs/**
+
+
+*(excluded)*
+*(disabled)*
+*(deprecated)*
+*(excluded)*
+*(Excluded)*
+*(EXCLUDED)*
+
+*(disabled)*
+*(Disabled)*
+*(DISABLED)*
+
+*(deprecated)*
+*(Deprecated)*
+*(DEPRECATED)*
+
+
+
+
+
+
+
+README*
+!README.md

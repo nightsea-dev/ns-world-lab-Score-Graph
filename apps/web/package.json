@@ -1,0 +1,34 @@
+{
+    "name": "@ns-sg/web",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "---------- tsc": "------------------------------",
+        "tsc:clean": "tsc -b --clean",
+        "tsc": "npm run tsc:clean && tsc -b tsconfig.json",
+        "tsc:w": "npm run tsc:clean && tsc -b tsconfig.json -w",
+        "---------- vite": "------------------------------",
+        "dev": "vite",
+        "vite:preview": "vite preview",
+        "vite:build": "npm run tsc && vite build",
+        "---------- storybook": "------------------------------",
+        "storybook": "storybook dev -p 6006 --host lab36 -c .storybook --no-open",
+        "build-storybook": "storybook build -c .storybook -o ../../dist/storybook/web"
+    },
+    "dependencies": {
+        "@ns-sg/types": "file:../../packages/types",
+        "jerrypick": "^1.1.2",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-force-graph-2d": "^1.27.4"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.1.18",
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "@vitejs/plugin-react": "^4.3.3",
+        "tailwindcss": "^4.1.18",
+        "typescript": "^5.7.2",
+        "vite": "^7.3.1"
+    }
+}

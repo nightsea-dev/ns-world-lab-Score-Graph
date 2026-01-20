@@ -1,0 +1,30 @@
+{
+  // @ns-sg/server
+  // tsconfig.json
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ns-sg/types": [
+        "../../packages/types/src/index.ts"
+      ],
+      "@ns-sg/types/*": [
+        "../../packages/types/src/*"
+      ]
+    }
+  },
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+  ]
+}

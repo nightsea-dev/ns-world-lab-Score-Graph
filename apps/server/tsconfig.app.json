@@ -1,0 +1,29 @@
+{
+  // @ns-sg/server
+  // tsconfig.app.json
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": false,
+  },
+  "files": [],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*(deprecated)*",
+    "dist",
+    "node_modules"
+  ],
+  "references": [
+    {
+      "path": "../../packages/types/tsconfig.lib.json"
+    }
+  ]
+}
