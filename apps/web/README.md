@@ -1,6 +1,6 @@
 # Web – Score Graph Interface
 
-## Overview (`apps/web`)
+## Overview
 
 This package provides the interactive user interface for the score graph system.
 
