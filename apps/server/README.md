@@ -81,9 +81,9 @@ No server-side pruning is performed based solely on score.
 - Node.js
 - TypeScript
 - PostgreSQL
-- **Turbo** -- workspace orchestration
+- Turbo -- workspace orchestration
 
-The workspace is orchestrated with **Turbo**.
+
 
 
 
