@@ -52,6 +52,7 @@ zip/**/*.zip
 zips/**/*.zip
 ZIP/**/*.zip
 ZIPS/**/*.zip
+*.zip
 
 # ========================================
 # Temporary / local scratch
