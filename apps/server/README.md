@@ -1,6 +1,6 @@
 # Server – Score Graph API
 
-## Overview  (`apps/server`)
+## Overview
 
 This package provides the backend API for the score graph system.
 
