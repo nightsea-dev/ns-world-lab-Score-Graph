@@ -1,4 +1,4 @@
-# NS World Lab — Score Graph System
+# ns-world-lab/Score Graph System
 
 ## Overview
 
