@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a modular **Score Graph** system composed of:
+Modular **Score Graph** system composed of:
 
 - a backend API responsible for graph construction, scoring, and persistence
 - a web interface dedicated to exploration and visualisation
@@ -63,13 +63,16 @@ A `.env.example` file is provided as reference.
 Runtime environment files are intentionally excluded from version control.
 
 
+## Notes
+
+- This is a demonstration repository. Designed to be read as much as it is to be run.
+- Each package README contains the authoritative explanation of its role,
+constraints, and guarantees.
+- No production infrastructure or secrets are included.
+- All code is self-contained for evaluation purposes.
+
+
 ## License
 
 MIT
 
-
-## Notes
-
-This repository is designed to be read as much as it is to be run.
-Each package README contains the authoritative explanation of its role,
-constraints, and guarantees.
